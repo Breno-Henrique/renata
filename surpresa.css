@@ -1,0 +1,53 @@
+body{
+   margin: 0%;
+   
+     background: linear-gradient(to right, #c4aed3, #4f038d);
+}
+
+img{
+       position: absolute;
+ margin-top:  3%;
+  left: 15%;
+right: 10%;
+
+
+      position: relative;
+      animation: descer 1.5s ease-out forwards;
+    }
+
+    @keyframes descer {
+      0% {
+        transform: translateY(-100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+
+h1{
+    position:absolute;
+    top: 95%;
+    text-align: center;
+    left: 20%;
+}
+
+h7{
+      position:absolute;
+    top: 150%;
+}
+
+button{
+  cursor: pointer;
+   height: 30px;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: -13px;
+    background-color: #7537a1;
+    color: #000000;
+    margin-top: 25px;
+   margin-left: 10px;
+}
